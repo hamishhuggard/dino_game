@@ -6,6 +6,7 @@
 // implement an obstacle ✅
 // detect collision with box
 // repeating obstacles
+hello :)
 
 const dino = document.getElementById("walk1");
 const square = document.getElementById("square");
