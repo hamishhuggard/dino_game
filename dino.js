@@ -6,7 +6,6 @@
 // implement an obstacle ✅
 // detect collision with box
 // repeating obstacles
-hello :)
 
 const dino = document.getElementById("walk1");
 const square = document.getElementById("square");
@@ -60,9 +59,16 @@ function gameLoop() {
     if (y > 100) {
         ySpeed = 0;
         y = 100;
+if (Y = 100) && (squareX = 100) 
+        
     }
     
 }
+
+function gameOver() {
+    console.log.gameOver
+
+}    
 gameLoop();
 
 
