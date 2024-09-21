@@ -59,14 +59,17 @@ function gameLoop() {
     if (y > 100) {
         ySpeed = 0;
         y = 100;
+        /*
 if (Y = 100) && (squareX = 100) 
+    // TODO: flesh out this test
         
     }
+    */
     
 }
 
 function gameOver() {
-    console.log.gameOver
+    // console.log.gameOver
 
 }    
 gameLoop();
