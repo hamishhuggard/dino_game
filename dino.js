@@ -59,12 +59,12 @@ function gameLoop() {
     if (y > 100) {
         ySpeed = 0;
         y = 100;
-        /*
-if (Y = 100) && (squareX = 100) 
+        
+if (Y = squareY) && (x = squareX)
     // TODO: flesh out this test
         
     }
-    */
+    
     
 }
 
