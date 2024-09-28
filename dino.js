@@ -60,8 +60,11 @@ function gameLoop() {
         ySpeed = 0;
         y = 100;
         
-if (Y = squareY) && (x = squareX)
-    // TODO: flesh out this test
+console({x, y, squareX, squareY})
+if ((y === squareY) && (x === squareX)) {
+    alert("game over");
+}
+
         
     }
     
