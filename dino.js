@@ -60,7 +60,7 @@ function gameLoop() {
         ySpeed = 0;
         y = 100;
         
-console({x, y, squareX, squareY})
+console.log({x, y, squareX, squareY})
 if ((y === squareY) && (x === squareX)) {
     alert("game over");
 }
