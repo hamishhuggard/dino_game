@@ -55,17 +55,15 @@ function gameLoop() {
     squareX = squareX - 5;
     square.style.left = `${squareX}px`;
 
-    console.log(y)
+    // console.log(y)
     if (y > 100) {
         ySpeed = 0;
         y = 100;
+    }
         
-console.log({x, y, squareX, squareY})
-if ((y === squareY) && (x === squareX)) {
-    alert("game over");
-}
-
-        
+    // console.log({x, y, squareX, squareY})
+    if ((y === squareY) && (x === squareX)) {
+        alert("game over");
     }
     
     
@@ -86,7 +84,7 @@ function nextFrame() {
     if (imageCounter > 3) {
         imageCounter = 0;
     } 
-    console.log('walk' + imageCounter + '.png');
+    // console.log('walk' + imageCounter + '.png');
     document.getElementById("walk1").src = 'walk' + imageCounter + '.png';
     
 }
@@ -95,7 +93,7 @@ setInterval(nextFrame, 1000);
 
 // START THE GAME
 function startGame(event) {
-    console.log(event.key);
+    // console.log(event.key);
 }
 document.addEventListener("keydown", startGame);
 
