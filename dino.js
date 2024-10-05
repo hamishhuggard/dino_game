@@ -11,7 +11,7 @@ const dino = document.getElementById("walk1");
 const square = document.getElementById("square");
 
 let squareX = 400;
-let squareY = 180;
+let squareY = 200;
 
 square.style.position = 'absolute';
 square.style.left = `${squareX}px`;
